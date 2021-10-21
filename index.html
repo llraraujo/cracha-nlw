@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
     <title>NLW Heat</title>
   </head>
 
@@ -23,30 +24,30 @@
           </span>
           <img src="images/avatar.png" alt="Foto Pessoal" />
         </div>
-        <h1>LUCAS R. A.</h1>
+        <h1 id="userName">LUCAS R. A.</h1>
         <a href="https://github.com/Luk4ss" target="_blank">
           <img src="images/github.svg" alt="ícone github" /> Luk4ss
         </a>
         <p>
           A very curious person that love to understand how the things works.
         </p>
-        <ul>
-          <li>
+        <ul id="socialLinks">
+          <li class="youtube">
             <a href="https://youtube.com" target="_blank"
               ><img src="images/youtube.svg" alt="ícone youtube"
             /></a>
           </li>
-          <li>
+          <li class="facebook">
             <a href="https://facebook.com" target="_blank"
               ><img src="images/facebook.svg" alt="ícone facebook"
             /></a>
           </li>
-          <li>
+          <li class="twitter">
             <a href="https://twitter.com/faratroll" target="_blank"
               ><img src="images/twitter.svg" alt="ícone twitter"
             /></a>
           </li>
-          <li>
+          <li class="instagram">
             <a href="https://instagram.com" target="_blank"
               ><img src="images/instagram.svg" alt="ícone instagram"
             /></a>
@@ -54,6 +55,36 @@
         </ul>
       </div>
     </main>
+    <script>
+      //tipos de variáveis: let ou const
+
+      /* camelCase
+         PascalCase
+         snake_case
+      */
+
+      const links = {
+        github: 'Luk4ss',
+        youtube: 'lucaspuppetsmaster',
+        facebook: 'luk4ss.rego',
+        twitter: 'faratroll',
+        instagram: '123456' //Não tenho instagram, então coloquei um 'id' aleatório.
+      }
+
+      function changeSocialMediaLinks() {
+        //document.getElementById('userName').textContent = 'Lucas' === userName.textContent = 'Marcelo'
+        // i = i + 1 === i++ === i+=1
+
+        for (const itens of socialLinks.children) {
+          const social = itens.getAttribute('class')
+
+          itens.children[0].href = `https://${social}.com.br/${links[social]}`
+          console.log(itens.children[0].href)
+        }
+      }
+
+      changeSocialMediaLinks()
+    </script>
   </body>
 </html>
 
