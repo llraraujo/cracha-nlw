@@ -1,0 +1,37 @@
+[33mcommit 05bd860db4987bf8c00b2f95b1c5f09b8f6444bc[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Luk4ss <lucasregoaraujo@gmail.com>
+Date:   Fri Oct 22 02:08:33 2021 -0300
+
+    Revert "Excluindo minha foto de perfil."
+    
+    This reverts commit a0d0f06897dd9ec8e7da7b26972d47c34c7e3b47.
+
+[33mcommit ca5eb52b88eb2492bb463f6dd09e5680385f8a54[m
+Author: Luk4ss <lucasregoaraujo@gmail.com>
+Date:   Fri Oct 22 02:01:20 2021 -0300
+
+    youtube redireciona para o canal rocketseat
+
+[33mcommit a0d0f06897dd9ec8e7da7b26972d47c34c7e3b47[m
+Author: Lucas R <35945523+Luk4ss@users.noreply.github.com>
+Date:   Fri Oct 22 01:53:43 2021 -0300
+
+    Excluindo minha foto de perfil.
+
+[33mcommit 7c64c03e55fccb79909a44232992f89bbbe66d77[m
+Author: Luk4ss <lucasregoaraujo@gmail.com>
+Date:   Fri Oct 22 01:52:00 2021 -0300
+
+    Atualização para usar API do github
+
+[33mcommit ef150ac1968cec7890e7085203a52f35d72b6b75[m
+Author: Luk4ss <lucasregoaraujo@gmail.com>
+Date:   Wed Oct 20 23:40:16 2021 -0300
+
+    Acrescentando JavaScpript
+
+[33mcommit 5c94ee7778d7a0c660902961d6850859b70c248d[m
+Author: Luk4ss <lucasregoaraujo@gmail.com>
+Date:   Wed Oct 20 19:33:13 2021 -0300
+
+    first commit
