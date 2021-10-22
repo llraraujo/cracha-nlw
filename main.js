@@ -7,7 +7,7 @@
 
 const linksSocialMedia = {
   github: 'Luk4ss',
-  youtube: 'RocketSeat',
+  youtube: 'lucaspuppetsmaster',
   facebook: 'lucass.rego',
   twitter: 'faratroll',
   instagram: 'rocketseat_oficial' //Não tenho instagram, então coloquei um 'id' aleatório.
